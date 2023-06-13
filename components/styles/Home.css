@@ -1,0 +1,44 @@
+/*Header*/
+#navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+}
+.menu a{
+    padding-left: 20px;
+}
+/*Main*/
+#principal{
+    background-image: url("../img/Banner.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+h1, a{
+    color: white;
+}

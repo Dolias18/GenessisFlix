@@ -1,0 +1,16 @@
+/*Header*/
+a{
+    color: white;
+}
+#navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+}
+.menu a{
+    padding-left: 20px;
+}

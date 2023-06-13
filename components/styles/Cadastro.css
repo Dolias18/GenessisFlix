@@ -1,0 +1,66 @@
+/*Header*/
+label, h1, a, p{
+    color: white;
+}
+#navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+}
+.menu a{
+    padding-left: 20px;
+}
+/*Main*/
+#principal{
+    background-image: url("../img/Banner-2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.janela-pop{
+    background-color: rgb(34, 33, 33);
+    padding: 0px 60px 0px 60px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.title-main{
+    margin: 20px 0 20px 0;
+}
+.inputs, div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.inputs input{
+    border: none;
+    border-radius: 20px;
+    padding: 8px 50px 8px 50px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 20px 0 20px 0;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

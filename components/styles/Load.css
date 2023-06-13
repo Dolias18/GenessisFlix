@@ -1,0 +1,30 @@
+/*Main*/
+#principal{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#principal img{
+    width: 30%;
+    
+}
+.loader{
+    animation: load 1s infinite;
+    display: flex;
+    justify-content: center;
+    border: 6px solid #DFAF67;
+    border-top-color: rgb(128, 3, 3);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+@keyframes load {
+    to{
+        transform: rotate(1turn);
+    }
+}
